@@ -4,6 +4,7 @@
 
 "Precisamos criar uma API de Produto que uma outra aplicação client irá utilizar.
 Podemos ter somente o ID, Nome, Tipo e Preço Unitário.
+
 Os possíveis tipos poderão ser “Material” ou “Serviço”."
 
 ## Requisitos realizados no teste:
@@ -19,7 +20,9 @@ Os possíveis tipos poderão ser “Material” ou “Serviço”."
 ## Descrição do projeto
 
 A aplicação foi construída com .NET 6. Para executar será necessário ter essa versão instalada. Segue link para download: https://dotnet.microsoft.com/pt-br/download/dotnet/6.0.
+
 Como proposto no desafio, é necessário ter o PostgreSQL instalado. Você pode baixar o arquivo para instalação aqui: https://www.postgresql.org/download.
+
 A aplicação está dividida em quatro camadas:
 - API: possui as rotas de manipulação dos produtos e autenticação para a API, essa é a camada que deve ser executada.
 - Dominio: possui as entidades que a aplicação necessita.
