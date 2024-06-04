@@ -1,0 +1,18 @@
+Perguntas realizadas no teste:
+
+1. Quais princípios SOLID foram usados? Qual foi o motivo da escolha deles?
+
+Resposta: 
+- Princípio de Responsabilidade Única (SRP), por conta da liberdade em alterar uma determinada classe, sem ter a preocupação de impactar nas demais.
+- Princípio de Segregação de Interface (ISP), pensando na flexibilidade das interfaces, não foi realizado a criação de métodos que reune muitas responsabilidades.
+
+2. Dado um cenário que necessite de alta performance, cite 2 locais possíveis
+de melhorar a performance da API criada e explique como seria a
+implementação desta melhoria.
+
+Resposta:
+1. Realizar as consultas manualmente com um ORM mais leve, o Dapper seria uma boa opção.
+Para isso, teria que alterar os metodos do repositorio, informando os comandos de cada ação.
+
+2. Utilizar bibliotecas para manter os dados em cache, como o IMemoryCache, por exemplo.
+Adicionando a entidade criada nos controllers da API
