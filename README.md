@@ -1,12 +1,12 @@
 # Teste_Vize
 
-##Desafio proposto
+## Desafio proposto
 
 "Precisamos criar uma API de Produto que uma outra aplicação client irá utilizar.
 Podemos ter somente o ID, Nome, Tipo e Preço Unitário.
 Os possíveis tipos poderão ser “Material” ou “Serviço”."
 
-##Requisitos realizados no teste:
+## Requisitos realizados no teste:
 
 - A api deve realizar o CRUD.
 - Dashboard com a quantidade e o preço unitário médio separado por tipo (Material ou Serviço).
@@ -16,7 +16,7 @@ Os possíveis tipos poderão ser “Material” ou “Serviço”."
 - Usar o banco de dados PostgreSQL para gravar as informações.
 
 
-##Descrição do projeto
+## Descrição do projeto
 
 A aplicação foi construída com .NET 6. Para executar será necessário ter essa versão instalada. Segue link para download: https://dotnet.microsoft.com/pt-br/download/dotnet/6.0.
 Como proposto no desafio, é necessário ter o PostgreSQL instalado. Você pode baixar o arquivo para instalação aqui: https://www.postgresql.org/download.
@@ -27,7 +27,7 @@ A aplicação está dividida em quatro camadas:
 - Serviço: possui os serviços que implementam as regras de negócio da aplicação e também a comunicação com os dados que estão salvos no banco.
 
 
-##Orientações para execução
+## Orientações para execução
 
 1. Baixe ou repositório.
 2. Abra a solução do projeto que está na pasta.
